@@ -11,7 +11,7 @@ export default function Contact() {
 
           {/* Contact Description */}
           <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-6">
-            We would love to hear from you! Whether you have a question, feedback, or collaboration idea, feel free to reach out to us. We're here to help and connect.
+            We would love to hear from you! Whether you have a question&rsquo; feedback&rsquo; or collaboration idea&rsquo; feel free to reach out to us. We&apos;re here to help and connect.
           </p>
 
           {/* Contact Form */}

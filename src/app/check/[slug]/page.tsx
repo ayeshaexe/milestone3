@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 interface BlogProps {
   params: { slug: string };
@@ -56,10 +57,12 @@ async function Blog({ params }: BlogProps) {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
-        <img
+        <Image
           src={blog.image}
           alt={blog.title}
           className="w-full h-64 object-cover rounded-lg mb-6"
+          height={400}
+          width={700}
         />
         <h1 className="text-3xl font-bold text-gray-800 mb-4">{blog.title}</h1>
         <div className="text-gray-700">{blog.content}</div>

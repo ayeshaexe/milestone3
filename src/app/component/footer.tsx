@@ -1,4 +1,4 @@
-1// components/Footer.js
+// components/Footer.js
 import Link from "next/link";
 import { FaInstagram, FaTwitter, FaFacebook,FaFacebookMessenger,FaGithub,FaLinkedin } from "react-icons/fa";
 
